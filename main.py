@@ -8,7 +8,7 @@ page_bg = """
 <style>
     /* Apply background color to the main content area */
     .stApp {
-        background-color: #e0f7fa;
+        background-color: #e6e6fa;
     }
 
     /* Apply background color to the main body area */
