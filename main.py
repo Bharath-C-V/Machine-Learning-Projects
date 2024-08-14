@@ -8,12 +8,12 @@ page_bg = """
 <style>
     /* Apply background color to the main content area */
     .stApp {
-        background-color: #e6e6fa;
+        background-color: #f5fffa;
     }
 
     /* Apply background color to the main body area */
     div[data-testid="stAppViewContainer"] {
-        background-color: #e0f7fa;
+        background-color: #f5fffa;
     }
 
     /* Ensure text is visible on light background */
