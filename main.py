@@ -4,6 +4,19 @@ from Prediction import predict
 # Define the page layout
 st.title('Health Insurance Premium Predictor')
 
+page_bg = """
+<style>
+    /* Adjust the background color of the main content */
+    .stApp {
+        background-color: #e0f7fa;  /* Light Blue */
+    }
+    /* Ensure text is visible on the background */
+    h1, h2, h3, h4, h5, h6, p, div, span, label {
+        color: black;
+    }
+</style>
+"""
+
 categorical_options = {
     'Gender': ['Male', 'Female'],
     'Marital Status': ['Married', 'Unmarried'],
