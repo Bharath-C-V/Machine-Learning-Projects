@@ -6,17 +6,12 @@ st.title('Health Insurance Premium Predictor')
 
 page_bg = """
 <style>
-    /* Apply background color to the main content area */
-    .stApp {
-        background-color: #f5fffa;
-    }
-
-    /* Apply background color to the main body area */
+    /* Apply reduced brightness light pink background to the main content area */
     div[data-testid="stAppViewContainer"] {
-        background-color: #f5fffa;
+        background-color: hsla(340, 100%, 90%, 1);  /* Soft pink with reduced brightness */
     }
 
-    /* Ensure text is visible on light background */
+    /* Ensure text is visible on the pink background */
     h1, h2, h3, h4, h5, h6, p, div, span, label {
         color: black;
     }
