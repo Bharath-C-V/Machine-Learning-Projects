@@ -6,16 +6,23 @@ st.title('Health Insurance Premium Predictor')
 
 page_bg = """
 <style>
-    /* Adjust the background color of the main content */
+    /* Apply background color to the main content area */
     .stApp {
-        background-color: #e0f7fa;  /* Light Blue */
+        background-color: #e0f7fa;
     }
-    /* Ensure text is visible on the background */
+
+    /* Apply background color to the main body area */
+    div[data-testid="stAppViewContainer"] {
+        background-color: #e0f7fa;
+    }
+
+    /* Ensure text is visible on light background */
     h1, h2, h3, h4, h5, h6, p, div, span, label {
         color: black;
     }
 </style>
 """
+
 
 categorical_options = {
     'Gender': ['Male', 'Female'],
